@@ -222,7 +222,11 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TBEKXBPA
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for AirPi2_Sensors\Design Rule Check - AirPi2_Sensors.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
