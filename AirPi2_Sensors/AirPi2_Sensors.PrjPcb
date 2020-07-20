@@ -224,6 +224,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TBEKXBPA
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for AirPi2_Sensors\Design Rule Check - AirPi2_Sensors.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
