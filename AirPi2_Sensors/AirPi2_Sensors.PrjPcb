@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=AirPi2_Sensors.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QFOKAWSL
+
+[Document2]
 DocumentPath=ADS1115.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VWACFYES
 
-[Document2]
+[Document3]
 DocumentPath=PCA9685.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EVILKHPF
 
-[Document3]
+[Document4]
 DocumentPath=sc16is752.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZUZPXPSO
 
-[Document4]
+[Document5]
 DocumentPath=REF5050.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EQEVKKMU
 
-[Document5]
+[Document6]
 DocumentPath=AirPi2_Sensors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UEABZXVQ
 
-[Document6]
+[Document7]
 DocumentPath=Fan.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EVOLUNUL
 
-[Document7]
+[Document8]
 DocumentPath=RC_Inverter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FNYKYLRF
 
-[Document8]
+[Document9]
 DocumentPath=ICM42605.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ULBQMFDR
 
-[Document9]
+[Document10]
 DocumentPath=MS5611.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NMYUQKLX
 
-[Document10]
+[Document11]
 DocumentPath=IST8310.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -206,23 +223,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MFNGGDOP
-
-[Document11]
-DocumentPath=AirPi2_Sensors.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TBEKXBPA
 
 [Document12]
 DocumentPath=AirPi2_Sensors.BomDoc
@@ -241,6 +241,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for AirPi2_Sensors\Design Rule Check - AirPi2_Sensors.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -254,7 +258,7 @@ ConfigurationType=Source
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=FX DocuPrint M268 dw Printer
+TargetPrinter=FX DocuPrint M268 dw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -356,42 +360,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=XSpice Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=FX DocuPrint M268 dw Printer
+TargetPrinter=FX DocuPrint M268 dw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -462,7 +436,7 @@ PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=FX DocuPrint M268 dw Printer
+TargetPrinter=FX DocuPrint M268 dw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -484,7 +458,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=FX DocuPrint M268 dw Printer
+TargetPrinter=FX DocuPrint M268 dw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -556,7 +530,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=FX DocuPrint M268 dw Printer
+TargetPrinter=FX DocuPrint M268 dw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -605,7 +579,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=FX DocuPrint M268 dw Printer
+TargetPrinter=FX DocuPrint M268 dw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -785,7 +759,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=FX DocuPrint M268 dw Printer
+TargetPrinter=FX DocuPrint M268 dw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -829,7 +803,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=FX DocuPrint M268 dw Printer
+TargetPrinter=FX DocuPrint M268 dw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -890,7 +864,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=FX DocuPrint M268 dw Printer
+TargetPrinter=FX DocuPrint M268 dw
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
