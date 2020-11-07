@@ -38,7 +38,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=AirPi2_Sensors.PcbDoc
+DocumentPath=PilotPi_Sensors.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EQEVKKMU
 
 [Document6]
-DocumentPath=AirPi2_Sensors.SchDoc
+DocumentPath=PilotPi_Sensors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -225,7 +225,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MFNGGDOP
 
 [Document12]
-DocumentPath=AirPi2_Sensors.BomDoc
+DocumentPath=PilotPi_Sensors.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -240,10 +240,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for AirPi2_Sensors\Design Rule Check - AirPi2_Sensors.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources

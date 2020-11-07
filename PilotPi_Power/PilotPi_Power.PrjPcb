@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EVOLUNUL
 
 [Document3]
-DocumentPath=AirPi2_Power.SchDoc
+DocumentPath=PilotPi_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VVCKNCIZ
 
 [Document6]
-DocumentPath=AirPi2_Power.PcbDoc
+DocumentPath=PilotPi_Power.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +140,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RSYUPHFU
 
 [Document7]
-DocumentPath=AirPi2_Power.BomDoc
+DocumentPath=PilotPi_Power.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -155,10 +155,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for AirPi2_Power\Design Rule Check - AirPi2_Power.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources

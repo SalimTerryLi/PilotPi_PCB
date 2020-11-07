@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=PilotPi_Power.SchDoc
+Record=SheetSymbol|SourceDocument=PilotPi_Power.SchDoc|Designator=78l06|SchDesignator=78l06|FileName=78l06.SchDoc|SymbolType=Normal|RawFileName=78l06.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PilotPi_Power.SchDoc|Designator=FAN|SchDesignator=FAN|FileName=Fan.SchDoc|SymbolType=Normal|RawFileName=Fan.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PilotPi_Power.SchDoc|Designator=Voltage_Divider|SchDesignator=Voltage_Divider|FileName=Voltage_Divider.SchDoc|SymbolType=Normal|RawFileName=Voltage_Divider.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PilotPi_Power.SchDoc|Designator=XL4015|SchDesignator=XL4015|FileName=xl4015.SchDoc|SymbolType=Normal|RawFileName=xl4015.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
